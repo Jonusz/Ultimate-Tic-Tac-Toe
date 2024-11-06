@@ -1,0 +1,155 @@
+#panel-control {
+  background-color: #1c1c1c;
+  color: #eeedf2;
+  width: 40%;
+  text-align: center;
+  left: 450px;
+  justify-content: center;
+  display: grid;
+  place-items: center;
+}
+
+
+html {
+  background-color: #1c1c1c;
+}
+.App {
+  background-color: #1c1c1c;
+}
+
+.controlPanel{
+  background-color: #1c1c1c;
+}
+/*
+* {
+  color: #eeedf2;
+  font-family: montserat, arial;
+  box-sizing: border-box;
+}
+*/
+
+.boardContainer {
+  background: #1c1c1c;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-style: bold;
+  font-family: montserat, arial;
+  text-align: center;
+  color: #5d31ff;
+}
+
+.start-game-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-game-btn:hover {
+  background-color: #7efc87;
+}
+
+.startGame {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #5d31ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.startGame:hover {
+  background-color: rgb(200, 200, 200);
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.menuContainer {
+  background-color: #1c1c1c;
+  text-align: center;
+}
+
+.selectOption {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1rem;
+  padding: 5px;
+}
+
+.selectOption:hover {
+  background-color: rgb(220, 220, 220);
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.486);
+}
+
+.timetitle {
+  display: inline-block;
+  vertical-align: middle;
+  color: rgb(80, 80, 80);
+}
+
+.disabledTextBox {
+  background-color: #f0f0f0;
+  color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.player1-container {
+ color: #5d31ff;
+ margin-bottom: 3px;
+}
+
+.player2-container {
+  margin-bottom: 3px;
+  color: #def241;
+ }
+/* to nie działa
+/* Sekcja nazw graczy */
+
+.disabled-text-box {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+
+/* Sekcja czasu */
+.form-metadata {
+  color: #eeedf2;
+
+}
+
+.form-metadata dl {
+  margin-top: 10px; /* Mniejszy odstęp nad sekcją tempa gry */
+}
+
+
+/* Select do wyboru czasu */
+.duration-select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.select-time-button {
+  margin-top: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
